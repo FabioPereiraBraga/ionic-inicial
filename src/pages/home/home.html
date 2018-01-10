@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Lista de pokemons</h2>
+  <ul>
+    <li *ngFor="let poke of pokes">{{poke.name}}</li>
+  </ul>
+</ion-content>
